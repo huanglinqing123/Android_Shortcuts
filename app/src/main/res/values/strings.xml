@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JobScheduler</string>
+    <string name="ceshirukou">测试入口1</string>
+    <string name="kuaijieceshi">快捷方式测试入口1</string>
+    <string name="bukeyong">不可用</string>
+
+    <string name="ceshirukou1">测试入口2</string>
+    <string name="kuaijieceshi1">快捷方式测试入口2</string>
+    <string name="bukeyong1">不可用1</string>
+</resources>

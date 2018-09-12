@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/ceshirukou"
+        android:shortcutLongLabel="@string/kuaijieceshi"
+        android:shortcutDisabledMessage="@string/bukeyong">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="hlq.jobscheduler"
+            android:targetClass="hlq.view.activity.TestACtivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="settings1"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/ceshirukou1"
+        android:shortcutLongLabel="@string/kuaijieceshi1"
+        android:shortcutDisabledMessage="@string/bukeyong1">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="hlq.jobscheduler"
+            android:targetClass="hlq.view.activity.TestActivity2" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+</shortcuts>
